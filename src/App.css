@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: whitesmoke;
+
+}
+.form{
+  width: 50%;
+  display: flex;
+  text-align: center;
+  margin-left: 25%;
+  justify-content: space-between;
+  
+}
+
+
+input{
+  background-color:gold;
+  border: none;
+  text-align: center;
+ 
+}
+select{
+  height: 25px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  box-shadow: none;
+}
+button {
+  height: 25px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  box-shadow: none;
+}
+
+.rest{
+  color: red;
+  font-weight: bold; 
+}
+h1{
+  color: whitesmoke;
+}
